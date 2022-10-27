@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169188252904",
+    "project_id": "impulsando-nuestras-estrellas",
+    "storage_bucket": "impulsando-nuestras-estrellas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169188252904:android:3c93cca82949cef112fd5d",
+        "android_client_info": {
+          "package_name": "com.moodle.innsoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169188252904-2m7qt88264qeqitaajun30ij1h3e5gp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ_o9M5T88Z3MW7k6E-jvae80EVwcT5XM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169188252904-2m7qt88264qeqitaajun30ij1h3e5gp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
