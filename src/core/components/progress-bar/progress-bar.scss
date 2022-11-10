@@ -9,8 +9,8 @@
     --height: var(--core-progressbar-height);
 
     --text-color: var(--core-progressbar-text-color);
-    --progressbar-color: var(--core-progressbar-color);
-    --progressbar-background: var(--core-progressbar-background);
+    --progressbar-color: #007bff;
+    --progressbar-background: #e8e8e8!important;
 
     @each $color-name, $unused in $colors {
         &.ion-color-#{$color-name} {

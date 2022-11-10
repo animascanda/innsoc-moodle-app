@@ -17,12 +17,12 @@ $gray-900:    #1d2125 !default; // Copy text
 $black:       #000000 !default; // Avoid usage
 
 $blue:        #0f6cbf !default;
-$cyan:        #008196 !default; // Not used.
-$green:       #357a32 !default;
-$red:         #ca3120 !default;
+$cyan:        #0f6cbf !default; // Not used.
+$green:       #000511 !default;
+$red:         #000511 !default;
 $yellow:      #f0ad4e !default;
 
-$brand-color: #ff7518 !default;
+$brand-color: #0176C0 !default;
 
 $text-color:               $gray-900 !default;
 $text-color-rgb:           color-to-rgb-list($text-color) !default;
@@ -41,7 +41,7 @@ $ion-item-background-dark-rgb: color-to-rgb-list($ion-item-background-dark) !def
 
 $primary:    $brand-color !default;
 $secondary:  $gray-300 !default;
-$danger:     $red !default;
+$danger:     #01002f;
 $warning:    $yellow !default;
 $success:    $green !default;
 $info:       $blue !default;
@@ -118,7 +118,7 @@ $activity-icon-colors: (
     administration: #5d63f6,
     assessment: #eb66a2,
     collaboration: #f7634d,
-    communication: #11a676,
+    communication: #080133,
     content: #399be2,
     interface: #a378ff
 ) !default;

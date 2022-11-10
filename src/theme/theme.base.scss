@@ -331,6 +331,7 @@ ion-button.button-outline {
 
 ion-button.button-solid {
     --box-shadow: none;
+
 }
 
 ion-button core-format-text {
@@ -732,7 +733,7 @@ body.core-iframe-fullscreen ion-router-outlet {
 // Item styles
 [aria-current="page"],
 .item.item-current {
-    @include safe-area-border-start(var(--selected-item-border-width), solid,  var(--selected-item-color));
+    @include safe-area-border-start(var(--selected-item-border-width), solid,  var(--selected-item-colorm,blue));
     > * {
         --ion-safe-area-left: 0px;
     }
@@ -1510,6 +1511,7 @@ ion-item.item-input ion-input.has-focus {
     }
     .item-highlight, .item-inner-highlight {
         position: unset;
+        background: rgb(0, 55, 100);
     }
 }
 

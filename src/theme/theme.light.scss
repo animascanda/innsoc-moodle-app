@@ -66,7 +66,7 @@ html {
     --core-online-color: #5cb85c;
 
     --ion-background-color: var(--background-color);
-    --ion-item-border-color: var(--stroke);
+     --ion-item-border-color: var(--stroke);
     --ion-background-color-rgb: #{$background-color-rgb};
     --ion-border-color: var(--stroke);
 
@@ -131,9 +131,10 @@ html {
     --bottom-tabs-size: 48px;
     --side-tabs-size: 56px;
     ion-tab-bar.mainmenu-tabs {
-        --background: var(--core-bottom-tabs-background);
-        --color: var(--core-bottom-tabs-color);
-        --color-selected: var(--core-bottom-tabs-color-selected);
+
+        --background: #000000;
+        --color: #565656;
+        --color-selected: #0176C0;
         --background-selected: var(--core-bottom-tabs-background-selected);
     }
 
