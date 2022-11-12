@@ -1,6 +1,6 @@
 {
     "app_id": "com.moodle.innsoc",
-    "appname": "Impulsando a nuestras estrellas",
+    "appname": "CPN Parenting",
     "versioncode": 41000,
     "versionname": "4.1.0-dev",
     "cache_update_frequency_usually": 420000,
@@ -85,7 +85,7 @@
     },
     "customurlscheme": "innsoc",
     "siteurl": "impulsandoanuestrasestrellas.com",
-    "sitename": "Impulsando a nuestras estrellas",
+    "sitename": "CPN Parenting",
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
