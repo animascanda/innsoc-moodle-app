@@ -1,8 +1,8 @@
 {
     "app_id": "com.moodle.innsoc",
     "appname": "CPN Parenting",
-    "versioncode": 41000,
-    "versionname": "4.1.0-dev",
+    "versioncode": 43000,
+    "versionname": "4.3.0",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,

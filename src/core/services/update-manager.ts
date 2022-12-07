@@ -73,7 +73,7 @@ export class CoreUpdateManagerProvider {
             promises.push(CoreH5P.h5pPlayer.deleteAllContentIndexes());
         }
 
-        if (versionCode >= 41000 && versionApplied < 41000 && versionApplied > 0) {
+        if (versionCode >= 43000 && versionApplied < 43000 && versionApplied > 0) {
             promises.push(this.upgradeFontSizeNames());
         }
 

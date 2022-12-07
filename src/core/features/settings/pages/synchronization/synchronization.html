@@ -23,15 +23,15 @@
                     <h2>{{ 'core.settings.syncsettings' | translate }}</h2>
                 </ion-label>
             </ion-item-divider>
-            <ion-item class="ion-text-wrap">
+            <ion-item-divider>
                 <ion-label>
-                    <p class="item-heading">
+                    <h2>
                         {{ 'core.settings.syncdatasaver' | translate }}
-                    </p>
+                    </h2>
                 </ion-label>
                 <ion-toggle slot="end" [(ngModel)]="dataSaver" (ngModelChange)="syncOnlyOnWifiChanged()">
                 </ion-toggle>
-            </ion-item>
+            </ion-item-divider>
 
             <ion-card class="core-warning-card" *ngIf="!isOnline || (dataSaver && limitedConnection)">
                 <ion-item class="ion-text-wrap">
@@ -55,8 +55,7 @@
                     <ion-item-divider sticky="true" class="core-sitelist-sitename">
                         <ion-label>
                             <p class="item-heading">
-                                <core-format-text [text]="accountsList.currentSite.siteName" clean="true"
-                                    [siteId]="accountsList.currentSite.id"></core-format-text>
+                                <core-format-text [text]="accountsList.currentSite.siteName" clean="true" [siteId]="accountsList.currentSite.id"></core-format-text>
                             </p>
                             <p><a [href]="accountsList.currentSite.siteUrl" core-link autoLogin="yes">{{
                                     accountsList.currentSite.siteUrlWithoutProtocol }}</a>
@@ -95,8 +94,7 @@
 <!-- Template to render a site to sync. -->
 <ng-template #siteSync let-site="site">
     <ion-avatar slot="start">
-        <img [src]="site.avatar" core-external-content [siteId]="site.id" alt="{{ 'core.pictureof' | translate:{$a: site.fullName} }}"
-            onError="this.src='assets/img/user-avatar.png'">
+        <img [src]="site.avatar" core-external-content [siteId]="site.id" alt="{{ 'core.pictureof' | translate:{$a: site.fullName} }}" onError="this.src='assets/img/user-avatar.png'">
     </ion-avatar>
     <ion-label>
         <p class="item-heading">{{site.fullName}}</p>
